@@ -1,2 +1,14 @@
 @import "tailwindcss";
 @plugin "daisyui";
+*{
+    /* border: 1px solid black; */
+}
+
+hr {
+  width: 80vw;  
+  border: 0;
+  border-top: 1px solid #eef7fc73;
+}
+.sado{
+  box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2);
+}
