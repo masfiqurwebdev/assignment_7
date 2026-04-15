@@ -1,3 +1,4 @@
+import FriendsCard from "@/Components/FriendsCard";
 
 
 export default function Home() {
@@ -8,7 +9,7 @@ export default function Home() {
        <p className='text-[#64748B] text-[16px] mb-8'>Your personal shelf of meaningful connections. Browse, tend, and nurture <br/> the relationships that matter most.</p>
        <button className='btn border-0 bg-[#244D3F] text-white mb-7'>+Add a Friend</button>
 
-      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-15'>
+      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-15 mb-20'>
 
         <div className=" sado px-6 py-8 mx-5">
           <h2 className="text-3xl mb-0.5">10</h2>
@@ -33,8 +34,9 @@ export default function Home() {
         
       </div>
 
+      <hr className="bg-black w-screen mb-20" />
        
-       
+       <FriendsCard/>
     </div>
   );
 }
