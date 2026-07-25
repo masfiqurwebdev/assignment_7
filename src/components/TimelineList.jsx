@@ -22,7 +22,7 @@ export default function TimelineList() {
         </h2>
 
         <p className="mt-2 text-gray-500">
-          Go to a friend's page and click Call, Text, or Video.
+          Go to a friends page and click Call, Text, or Video.
         </p>
       </div>
     );
