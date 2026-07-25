@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "David Kim",
+    "picture": "https://randomuser.me/api/portraits/men/32.jpg",
+    "email": "david.kim@gmail.com",
+    "days_since_contact": 18,
+    "status": "almost due",
+    "tags": ["work", "mentor"],
+    "bio": "Former teammate at TechNova. We usually catch up over coffee and discuss career growth.",
+    "goal": 21,
+    "next_due_date": "2026-08-03"
+  },
+  {
+    "id": 2,
+    "name": "Emma Wilson",
+    "picture": "https://randomuser.me/api/portraits/women/44.jpg",
+    "email": "emma.wilson@gmail.com",
+    "days_since_contact": 28,
+    "status": "overdue",
+    "tags": ["family", "cousin"],
+    "bio": "My cousin who recently moved to another city. We enjoy sharing travel stories and family updates.",
+    "goal": 21,
+    "next_due_date": "2026-07-17"
+  },
+  {
+    "id": 3,
+    "name": "Lisa Nakamura",
+    "picture": "https://randomuser.me/api/portraits/women/68.jpg",
+    "email": "lisa.nakamura@gmail.com",
+    "days_since_contact": 6,
+    "status": "on-track",
+    "tags": ["college", "close friend"],
+    "bio": "Met during university. We still plan weekend hikes and photography trips together.",
+    "goal": 14,
+    "next_due_date": "2026-08-01"
+  },
+  {
+    "id": 4,
+    "name": "James Wright",
+    "picture": "https://randomuser.me/api/portraits/men/75.jpg",
+    "email": "james.wright@gmail.com",
+    "days_since_contact": 10,
+    "status": "on-track",
+    "tags": ["hobby", "travel"],
+    "bio": "Travel companion who enjoys exploring new countries and documenting local culture.",
+    "goal": 21,
+    "next_due_date": "2026-08-07"
+  },
+  {
+    "id": 5,
+    "name": "Sophia Martinez",
+    "picture": "https://randomuser.me/api/portraits/women/12.jpg",
+    "email": "sophia.martinez@gmail.com",
+    "days_since_contact": 31,
+    "status": "overdue",
+    "tags": ["startup", "networking"],
+    "bio": "Founder of a small startup. We exchange ideas about entrepreneurship and product design.",
+    "goal": 30,
+    "next_due_date": "2026-07-23"
+  },
+  {
+    "id": 6,
+    "name": "Michael Brown",
+    "picture": "https://randomuser.me/api/portraits/men/41.jpg",
+    "email": "michael.brown@gmail.com",
+    "days_since_contact": 13,
+    "status": "almost due",
+    "tags": ["gym", "fitness"],
+    "bio": "Workout partner who motivates me to stay consistent with strength training.",
+    "goal": 14,
+    "next_due_date": "2026-07-25"
+  },
+  {
+    "id": 7,
+    "name": "Olivia Carter",
+    "picture": "https://randomuser.me/api/portraits/women/30.jpg",
+    "email": "olivia.carter@gmail.com",
+    "days_since_contact": 4,
+    "status": "on-track",
+    "tags": ["book club", "reading"],
+    "bio": "Friend from our monthly book club. We often recommend novels and discuss them online.",
+    "goal": 14,
+    "next_due_date": "2026-08-03"
+  },
+  {
+    "id": 8,
+    "name": "Daniel Ahmed",
+    "picture": "https://randomuser.me/api/portraits/men/55.jpg",
+    "email": "daniel.ahmed@gmail.com",
+    "days_since_contact": 24,
+    "status": "almost due",
+    "tags": ["developer", "open source"],
+    "bio": "Met through an open-source community. We collaborate on JavaScript and Next.js projects.",
+    "goal": 28,
+    "next_due_date": "2026-07-28"
+  },
+  {
+    "id": 9,
+    "name": "Rachel Green",
+    "picture": "https://randomuser.me/api/portraits/women/22.jpg",
+    "email": "rachel.green@gmail.com",
+    "days_since_contact": 38,
+    "status": "overdue",
+    "tags": ["school", "best friend"],
+    "bio": "We've been friends since high school. We never miss celebrating birthdays and major milestones together.",
+    "goal": 30,
+    "next_due_date": "2026-07-16"
+  },
+  {
+    "id": 10,
+    "name": "Noah Thompson",
+    "picture": "https://randomuser.me/api/portraits/men/61.jpg",
+    "email": "noah.thompson@gmail.com",
+    "days_since_contact": 7,
+    "status": "on-track",
+    "tags": ["football", "neighbor"],
+    "bio": "Neighborhood friend who organizes weekend football matches and community events.",
+    "goal": 14,
+    "next_due_date": "2026-07-31"
+  }
+]
