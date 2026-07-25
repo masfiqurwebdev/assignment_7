@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 
 import { TimelineProvider } from "@/context/TimelineContext";
+import Footer from "@/components/Footer";
 
 export const metadata = {
   title: "KeenKeeper",
@@ -21,6 +22,7 @@ export default function RootLayout({ children }) {
           <Toaster position="top-right" toastOptions={{duration: 2500, }}/>
           
         </TimelineProvider>
+        <Footer/>
         </main>
       </body>
     </html>
