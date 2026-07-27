@@ -7,9 +7,10 @@ export default function TimelinePage() {
         <h1 className="mb-8 text-4xl font-bold text-slate-800">
           Timeline
         </h1>
-
         <TimelineList />
       </div>
+      
     </main>
+
   );
 }

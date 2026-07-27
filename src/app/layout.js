@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className="bg-gray-50">
         <main>
-        <Navbar />
+        {/* <Navbar /> */}
 
         <TimelineProvider>
           {children}

@@ -4,7 +4,8 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Menu, X, Home, Clock3, BarChart3 } from "lucide-react";
 import { useState } from "react";
-
+import Image from "next/image";
+import logo from "../assets/logo.png"
 const navItems = [
   {
     title: "Home",
@@ -36,7 +37,7 @@ export default function Navbar() {
           href="/"
           className="text-xl font-bold text-slate-800"
         >
-          KeenKeeper
+          <Image className=" w-32 md:w-40" src={logo} alt="keenkeper" height={500} width={500} />
         </Link>
 
         {/* Desktop Menu */}
