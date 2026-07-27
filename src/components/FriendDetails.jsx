@@ -133,17 +133,17 @@ export default function FriendDetails({ friend }) {
             <h2 className="mb-5 text-lg font-semibold">Quick Check-In</h2>
 
             <div className="grid gap-4 md:grid-cols-3">
-              <button onClick={() => addTimeline("Call")}>
+              <button className="btn btn-primary " onClick={() => addTimeline("Call")}>
                 <Phone size={22} />
                 Call
               </button>
 
-              <button onClick={() => addTimeline("Text")}>
+              <button className="btn btn-primary " onClick={() => addTimeline("Text")}>
                 <MessageSquare size={22} />
                 Text
               </button>
 
-              <button onClick={() => addTimeline("Video")}>
+              <button className="btn btn-primary " onClick={() => addTimeline("Video")}>
                 <Video size={22} />
                 Video
               </button>

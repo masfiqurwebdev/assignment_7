@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 const statusColor = {
@@ -11,7 +12,9 @@ export default function FriendCard({ friend }) {
     <Link href={`/friends/${friend.id}`}>
       <div className="group cursor-pointer rounded-xl border border-gray-200 bg-white p-6 text-center shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-lg">
 
-        <img
+        <Image 
+          width={500}
+          height={500}
           src={friend.picture}
           alt={friend.name}
           className="mx-auto h-20 w-20 rounded-full object-cover"
