@@ -11,6 +11,7 @@ import {
   MessageSquare,
   Video,
 } from "lucide-react";
+import Image from "next/image";
 
 const statusStyle = {
   "on-track": "bg-green-100 text-green-700",
@@ -22,7 +23,7 @@ export default function FriendDetails({ friend }) {
   const addTimeline = (type) => {
     addInteraction(friend, type);
 
-    toast.success(`${type} added successfully!`);
+    toast.success(`You ${type}ed ${friend.name}!`);
   };
   const { addInteraction } = useTimeline();
 
@@ -33,7 +34,7 @@ export default function FriendDetails({ friend }) {
 
         <div className="space-y-4 lg:col-span-4">
           <div className="rounded-xl border bg-white p-6 text-center shadow-sm">
-            <img
+            <Image width={500} height={500}
               src={friend.picture}
               alt={friend.name}
               className="mx-auto h-24 w-24 rounded-full object-cover"
@@ -79,14 +80,16 @@ export default function FriendDetails({ friend }) {
           </button>
         </div>
 
-        {/* RIGHT */}
 
+        
         <div className="space-y-6 lg:col-span-8">
           {/* Stats */}
 
+         
           <div className="grid gap-4 md:grid-cols-3">
             <div className="rounded-xl border bg-white p-6 text-center shadow-sm">
               <h3 className="text-4xl font-bold text-emerald-700">
+            
                 {friend.days_since_contact}
               </h3>
 
@@ -110,7 +113,6 @@ export default function FriendDetails({ friend }) {
             </div>
           </div>
 
-          {/* Goal */}
 
           <div className="rounded-xl border bg-white p-6 shadow-sm">
             <div className="mb-4 flex items-center justify-between">
@@ -128,22 +130,21 @@ export default function FriendDetails({ friend }) {
           </div>
 
           {/* Quick Check */}
-
           <div className="rounded-xl border bg-white p-6 shadow-sm">
             <h2 className="mb-5 text-lg font-semibold">Quick Check-In</h2>
 
             <div className="grid gap-4 md:grid-cols-3">
-              <button className="btn btn-primary " onClick={() => addTimeline("Call")}>
+              <button className="btn hover:text-blue-800 hover:bg-white btn-primary " onClick={() => addTimeline("Call")}>
                 <Phone size={22} />
                 Call
               </button>
 
-              <button className="btn btn-primary " onClick={() => addTimeline("Text")}>
+              <button className="btn hover:text-blue-800 hover:bg-white btn-primary " onClick={() => addTimeline("Text")}>
                 <MessageSquare size={22} />
                 Text
               </button>
 
-              <button className="btn btn-primary " onClick={() => addTimeline("Video")}>
+              <button className="btn hover:text-blue-800 hover:bg-white btn-primary " onClick={() => addTimeline("Video")}>
                 <Video size={22} />
                 Video
               </button>
